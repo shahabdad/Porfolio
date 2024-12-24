@@ -1,0 +1,115 @@
+#contact-section {
+    background-color: #EC8305;
+    color: #091057;
+    padding: 50px 0;
+  }
+  
+  #contact-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+  
+  #contact-description {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+  }
+  
+  #contact-content {
+    display: flex;
+    gap: 30px;
+  }
+  
+  #contact-info {
+    flex: 1;
+  }
+  
+  #profile-image-wrapper {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  #profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  #contact-form {
+    flex: 1;
+  }
+  
+  #contact-form .form-group {
+    margin-bottom: 20px;
+  }
+  
+  #contact-form label {
+    font-size: 1rem;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  #contact-form input,
+  #contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  #contact-form button {
+    background-color: #EC8305;
+    color: #091057;
+    border: none;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #contact-form button:hover {
+    background-color: #D57A04;
+  }
+  
+  #contact-footer {
+    background-color: #091057;
+    color: #fff;
+margin-bottom: -110px  ;
+margin-top: 16px;
+    /* padding: 10px 0; */
+    border-top: 3px solid #EC8305;
+  }
+  
+  .social-links {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+  
+  .social-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .social-links .list-inline-item {
+    margin-right: 15px;
+  }
+  
+  .social-links .list-inline-item a {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .social-links .list-inline-item a:hover {
+    color: #EC8305;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  

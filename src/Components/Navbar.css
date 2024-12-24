@@ -1,0 +1,58 @@
+.custom-navbar {
+  background: #091057; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.brand {
+  font-size: 1.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #f9d423; 
+  animation: glow 1.5s infinite alternate;
+}
+.nav-link {
+  position: relative;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: #EC8305; 
+  margin: 0 10px;
+  padding: 5px 0;
+  transition: all 0.3s ease;
+}
+.nav-link:hover {
+  color: #EC8305; 
+  text-shadow: 0 0 8px #EC8305; 
+}
+.nav-link::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #EC8305, #fad0c4); /* Gradient with orange */
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.4s ease-out;
+}
+.nav-link:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+@keyframes glow {
+  from {
+    text-shadow: 0 0 5px #f9d423, 0 0 10px #f9d423, 0 0 15px #f9d423;
+  }
+  to {
+    text-shadow: 0 0 20px #ffef9f, 0 0 25px #ffef9f, 0 0 30px #ffef9f;
+  }
+}
+@media (max-width: 992px) {
+  .nav-link {
+    font-size: 1rem;
+  }
+}
+@media (max-width: 576px) {
+  .brand {
+    font-size: 1.5rem;
+  }
+}
