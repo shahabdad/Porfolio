@@ -113,3 +113,29 @@ margin-top: 16px;
     margin-top: 10px;
   }
   
+  #profile-image-wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  #profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  
+  @media (max-width: 768px) {
+    #contact-content {
+      flex-direction: column;
+    }
+  
+    #contact-info,
+    #contact-form {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
+  
