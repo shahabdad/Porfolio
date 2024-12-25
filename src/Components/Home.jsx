@@ -79,7 +79,7 @@ const Home = () => {
         <Row className="justify-content-center">
           <div className="profile-image-container">
             <img
-              src="1.jpg  " 
+              src="Human.jpg  " 
               alt="Profile"
               className="profile-image"
               // ref={profileImageRef}

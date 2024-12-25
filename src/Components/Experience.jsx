@@ -8,7 +8,7 @@ const Experience = () => {
       name: "E-Commerce Website",
       description: "A responsive online store for multiple categories.",
       workDays: "20 Days",
-      viewLink: "#",
+      viewLink: "https://homazing.pk/?srsltid=AfmBOooutOs9at2e4lyC4SFFsMdGvDhEZ9tEgwpi6xqEco_5Ti60bsz1",
     },  {
       name: "Portfolio Website",
       description: "A professional portfolio showcasing skills and projects.",
