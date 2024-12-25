@@ -5,7 +5,7 @@ import './Navbar.css'; // Import custom CSS for styling
 const NavigationBar = () => {
   return (
     <Navbar bg="" variant="dark" expand="lg" className="custom-navbar">
-      <Navbar.Brand href="#home" className="me-auto brand">NewCoder</Navbar.Brand>
+      <Navbar.Brand href="#home" className="me-auto brand ms-5"  >My Protfolio</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto ka">

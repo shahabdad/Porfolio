@@ -5,7 +5,7 @@
 .brand {
   font-size: 1.8rem;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   color: #f9d423; 
   animation: glow 1.5s infinite alternate;
 }
