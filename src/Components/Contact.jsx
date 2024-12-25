@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import "./Contact.css";
-import { FaGithub, FaFacebookF, FaTiktok } from 'react-icons/fa'; // Importing social media icons
+import { FaGithub, FaFacebookF, FaTiktok } from 'react-icons/fa'; 
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -145,12 +145,12 @@ const Contact = () => {
             <div className="col-md-12 text-center">
               <ul className="social-links list-inline">
                 <li className="list-inline-item">
-                  <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <a href="https://github.com/shahabdad" target="_blank" rel="noopener noreferrer" className="social-link">
                     <FaGithub size={30} />
                   </a>
                 </li>
                 <li className="list-inline-item">
-                  <a href="https://www.tiktok.com" target="_blank" rel="noopener noreferrer" className="social-link">
+                  <a href="https://www.tiktok.com/@shahabdad71" target="_blank" rel="noopener noreferrer" className="social-link">
                     <FaTiktok size={30} />
                   </a>
                 </li>
