@@ -40,6 +40,13 @@ const Experience = () => {
       workDays: "25 Days",
       viewLink: "#",
     },
+    {
+      name: "Tic-Tac-Toe Deluxe", 
+      description: "A sleek and modern Tic-Tac-Toe game with dark mode, interactive animations, and a fully responsive design for all devices.", 
+      workDays: "3-5 days", 
+      viewLink: "https://game-dad.vercel.app/"
+    }
+    
   ];
     const renderCards = (projects) =>
     projects.map((project, index) => (
