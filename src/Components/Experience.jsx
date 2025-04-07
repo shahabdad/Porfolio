@@ -23,7 +23,7 @@ const Experience = () => {
   ];
     const teamWork = [
     {
-      name: "Team CRM System",
+      name: "Currency Converter",
       description: "A collaborative CRM tool for sales and marketing.",
       workDays: "30 Days",
       viewLink: "https://currency-converter-3.vercel.app/",
