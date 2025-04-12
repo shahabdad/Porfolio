@@ -29,10 +29,10 @@ const Experience = () => {
       viewLink: "https://currency-converter-3.vercel.app/",
     },
     {
-      name: "Event Management Platform",
-      description: "An application for event planning and coordination.",
-      workDays: "28 Days",
-      viewLink: "https://currency-converter-3.vercel.app/",
+      name: "Urlshortner Platform",
+      description: "URL Platform is a simple and efficient web application for event planning and coordination, helping users manage events and schedules with ease.",
+      workDays: "1 Days",
+      viewLink: "https://url-shortner-v7hh.vercel.app/",
     },
       {
         name: "Collaborative Learning App",
