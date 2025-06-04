@@ -20,6 +20,13 @@ const Experience = () => {
       workDays: "18 Days",
       viewLink: "#",
     },
+    {
+        name: "Quiz App",
+        description: "A C++ language quiz  application where  users can  test  their  knowledge and  potential  earn rewards by participating.",
+       workDays:"12 Days",
+       viewLink:"https://quiz-ecru-nu.vercel.app/",
+
+      }
   ];
     const teamWork = [
     {
