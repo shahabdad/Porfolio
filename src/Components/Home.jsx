@@ -106,7 +106,7 @@ const Home = () => {
               <a href="https://instagram.com" className="social-link">
                 <FaInstagram />
               </a>
-              <a href="https://linkedin.com" className="social-link">
+              <a href="https://www.linkedin.com/in/shahab-dad-256a42350/" className="social-link">
                 <FaLinkedin />
               </a>
             </div>

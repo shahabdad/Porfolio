@@ -32,23 +32,6 @@ const App = () => {
   }, []);
 
   return (
-    // <div className='bg-d'>
-    //   <NavigationBar />
-    //   <div className='container'>
-    //     <div className='home'>
-    //       <Home />
-    //     </div>
-    //     <div className='about'>
-    //       <About />
-    //     </div>
-    //     <div className='experience'>
-    //       <Experience />
-    //     </div>
-    //     <div className='contact'>
-    //       <Contact />
-    //     </div>
-    //   </div>
-    // </div>
     <div className='bg-d'>
   <NavigationBar />
   <div className='container'>

@@ -4,12 +4,19 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import "./Experience.css"; 
 const Experience = () => {
   const ownWork = [
-    {
-      name: "E-Commerce Website",
-      description: "A responsive online store for multiple categories.",
-      workDays: "20 Days",
-      viewLink: "https://homazing.pk/?srsltid=AfmBOooutOs9at2e4lyC4SFFsMdGvDhEZ9tEgwpi6xqEco_5Ti60bsz1",
-    },  {
+     {
+      name: "Currency Converter",
+      description: "A collaborative CRM tool for sales and marketing.",
+      workDays: "30 Days",
+      viewLink: "https://currency-converter-3.vercel.app/",
+    }, {
+        name: "Quiz App",
+        description: "A C++ language quiz  application where  users can  test  their  knowledge and  potential  earn rewards by participating.",
+       workDays:"12 Days",
+       viewLink:"https://quiz-ecru-nu.vercel.app/",
+
+      }, {
+
       name: "Portfolio Website",
       description: "A professional portfolio showcasing skills and projects.",
       workDays: "15 Days",
@@ -18,23 +25,24 @@ const Experience = () => {
       name: "Blog Platform",
       description: "A dynamic platform for creating and managing blogs.",
       workDays: "18 Days",
-      viewLink: "#",
+      viewLink: "https://github.com/shahabdad/BlogApp",
     },
-    {
-        name: "Quiz App",
-        description: "A C++ language quiz  application where  users can  test  their  knowledge and  potential  earn rewards by participating.",
-       workDays:"12 Days",
-       viewLink:"https://quiz-ecru-nu.vercel.app/",
-
-      }
+     {
+      name: "Tic-Tac-Toe Deluxe", 
+      description: "A sleek and modern Tic-Tac-Toe game with dark mode, interactive animations, and a fully responsive design for all devices.", 
+      workDays: "3-5 days", 
+      viewLink: "https://game-dad.vercel.app/"
+    }
+  
   ];
     const teamWork = [
-    {
-      name: "Currency Converter",
-      description: "A collaborative CRM tool for sales and marketing.",
-      workDays: "30 Days",
-      viewLink: "https://currency-converter-3.vercel.app/",
+      {
+      name: "E-Commerce Website",
+      description: "A responsive online store for multiple categories.",
+      workDays: "20 Days",
+      viewLink: "https://homazing.pk/?srsltid=AfmBOooutOs9at2e4lyC4SFFsMdGvDhEZ9tEgwpi6xqEco_5Ti60bsz1",
     },
+   
     {
       name: "Urlshortner Platform",
       description: "URL Platform is a simple and efficient web application for event planning and coordination, helping users manage events and schedules with ease.",
@@ -44,15 +52,10 @@ const Experience = () => {
       {
         name: "Collaborative Learning App",
         description: "A platform for shared learning experiences.",
-        workDays: "25 Days",
+        workDays: "Continue",
         viewLink: "#",
       },
-    {
-      name: "Tic-Tac-Toe Deluxe", 
-      description: "A sleek and modern Tic-Tac-Toe game with dark mode, interactive animations, and a fully responsive design for all devices.", 
-      workDays: "3-5 days", 
-      viewLink: "https://game-dad.vercel.app/"
-    }
+   
     
   ];
     const renderCards = (projects) =>
