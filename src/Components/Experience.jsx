@@ -49,6 +49,12 @@ const Experience = () => {
       workDays: "1 Days",
       viewLink: "https://url-shortner-v7hh.vercel.app/",
     },
+    {
+  name: "Scientific Calculator",
+  description: "Scientific Calculator is a responsive and interactive web tool that allows users to perform basic and advanced mathematical calculations with a clean UI, built using React and CSS.",
+  workDays: "1 Day",
+  viewLink: "scientific-calculator-beta-beige.vercel.app", 
+},
       {
         name: "Collaborative Learning App",
         description: "A platform for shared learning experiences.",
