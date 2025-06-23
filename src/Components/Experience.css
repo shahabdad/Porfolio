@@ -50,7 +50,7 @@
   }
   .experience-card {
     background-color: #1a237e; 
-    color: rgb(224, 195, 195);
+    color: rgb(211, 32, 32);
     border: none;
     border-radius: 8px;
     transition: transform 0.3s, box-shadow 0.3s, background-color 0.3s;
@@ -60,7 +60,7 @@
    .experience-card:hover {
     transform: translateY(-10px);
     box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
-    background-color: #2a3d88;
+    background-color: #5364a7;
   }
   .card-title {
     font-size: 1.5rem;
@@ -73,7 +73,7 @@
   }
 .card-days {
     font-size: 0.9rem;
-    color: aqua; 
+    color: rgb(167, 113, 12); 
   }
   .view-link {
     text-decoration: none;

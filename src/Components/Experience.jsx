@@ -4,6 +4,12 @@ import { FaExternalLinkAlt } from "react-icons/fa";
 import "./Experience.css"; 
 const Experience = () => {
   const ownWork = [
+    {
+  name: "Tata Ride Website",
+  description: "Tata Ride is a professional taxi booking frontend website built with React, CSS, and Bootstrap, fully responsive and user-friendly.",
+  workDays: "2 Days",
+  viewLink: "https://ta-ta-ride.vercel.app/", 
+},
      {
       name: "Currency Converter",
       description: "A collaborative CRM tool for sales and marketing.",
@@ -32,18 +38,8 @@ const Experience = () => {
       description: "A sleek and modern Tic-Tac-Toe game with dark mode, interactive animations, and a fully responsive design for all devices.", 
       workDays: "3-5 days", 
       viewLink: "https://game-dad.vercel.app/"
-    }
-  
-  ];
-    const teamWork = [
-      {
-      name: "E-Commerce Website",
-      description: "A responsive online store for multiple categories.",
-      workDays: "20 Days",
-      viewLink: "https://homazing.pk/?srsltid=AfmBOooutOs9at2e4lyC4SFFsMdGvDhEZ9tEgwpi6xqEco_5Ti60bsz1",
     },
-   
-    {
+        {
       name: "Urlshortner Platform",
       description: "URL Platform is a simple and efficient web application for event planning and coordination, helping users manage events and schedules with ease.",
       workDays: "1 Days",
@@ -60,7 +56,18 @@ const Experience = () => {
   description: "Scientific Calculator is a responsive and interactive web tool that allows users to perform basic and advanced mathematical calculations with a clean UI, built using React and CSS.",
   workDays: "1 Day",
   viewLink: "scientific-calculator-beta-beige.vercel.app", 
-},
+}
+  
+  ];
+    const teamWork = [
+      {
+      name: "E-Commerce Website",
+      description: "A responsive online store for multiple categories.",
+      workDays: "20 Days",
+      viewLink: "https://homazing.pk/?srsltid=AfmBOooutOs9at2e4lyC4SFFsMdGvDhEZ9tEgwpi6xqEco_5Ti60bsz1",
+    },
+   
+
       {
         name: "Collaborative Learning App",
         description: "A platform for shared learning experiences.",
