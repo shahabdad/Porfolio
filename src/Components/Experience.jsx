@@ -50,6 +50,12 @@ const Experience = () => {
       viewLink: "https://url-shortner-v7hh.vercel.app/",
     },
     {
+  name: "Tic Tac Toe Game",
+  description: "Tic Tac Toe is a classic two-player game built using React. This interactive web app allows players to take turns marking X and O on a 3x3 grid with real-time winner detection and reset functionality.",
+  workDays: "1 Day",
+  viewLink: "https://game-dad.vercel.app/", // replace with your actual deployed link
+},
+    {
   name: "Scientific Calculator",
   description: "Scientific Calculator is a responsive and interactive web tool that allows users to perform basic and advanced mathematical calculations with a clean UI, built using React and CSS.",
   workDays: "1 Day",
