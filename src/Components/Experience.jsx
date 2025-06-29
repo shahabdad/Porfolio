@@ -25,7 +25,7 @@ const Experience = () => {
       {
   name: "Weather App",
   description: "A real-time weather web application that detects the user's location automatically and shows live weather updates with a professional UI, animated icons, and city-based search functionality.",
-  workDays: "5 Days",
+  workDays: " 2 Days",
   viewLink: "https://weather-orpin-seven.vercel.app/",
 },  {
 
