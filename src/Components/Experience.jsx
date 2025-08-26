@@ -23,6 +23,12 @@ const Experience = () => {
 
       },
       {
+         "name": "QR Code Generator",
+  "description": "A responsive web application that allows users to generate QR codes instantly from text or URLs. The app features a clean and modern interface, quick QR code rendering, and an easy download option, making it practical for sharing links, contact details, and project resources.",
+  "workDays": "2 Hours",
+  "viewLink": "https://qr-code-delta-lemon.vercel.app/"
+      },
+      {
   name: "Weather App",
   description: "A real-time weather web application that detects the user's location automatically and shows live weather updates with a professional UI, animated icons, and city-based search functionality.",
   workDays: " 2 Days",
